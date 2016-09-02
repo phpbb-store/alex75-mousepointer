@@ -1,0 +1,30 @@
+html, body {
+	cursor: url("./mouse1.gif"), auto !important;
+}
+a, #st, #sk, #sd, .buttons, .button1, .button2, .search-icon, .dropdown-trigger, .mchat-mention, .mchat-message-icons > * { 
+	cursor: url("./mouse2.gif"), pointer !important;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+html, body {
+	cursor: url("./ext/alex75/mousepointer/styles/all/theme/mouse1.cur"), auto !important;
+}
+a, #st, #sk, #sd, .buttons, .button1, .button2, .search-icon, .dropdown-trigger, .mchat-mention, .mchat-message-icons > * { 
+	cursor: url("./ext/alex75/mousepointer/styles/all/theme/mouse2.cur"), pointer !important;
+}}
+@media screen and (min-width:0\0) {
+/* IE9  CSS styles go here */
+html, body {
+	cursor: url("./ext/alex75/mousepointer/styles/all/theme/mouse1.cur"), auto !important;
+}
+a, #st, #sk, #sd, .buttons, .button1, .button2, .search-icon, .dropdown-trigger, .mchat-mention, .mchat-message-icons > * { 
+	cursor: url("./ext/alex75/mousepointer/styles/all/theme/mouse2.cur"), pointer !important;
+}}
+@media \0screen\,screen\9 {
+/* IE 8 7 6 CSS styles go here */
+html, body {
+	cursor: url("./ext/alex75/mousepointer/styles/all/theme/mouse1.cur"), auto !important;
+}
+a, #st, #sk, #sd, .buttons, .button1, .button2, .search-icon, .dropdown-trigger, .mchat-mention, .mchat-message-icons > * { 
+	cursor: url("./ext/alex75/mousepointer/styles/all/theme/mouse2.cur"), pointer !important;
+}}
